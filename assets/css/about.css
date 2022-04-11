@@ -1,0 +1,134 @@
+@import url("first.css");
+@import url("footer.css");
+.info, .myskill__container {
+    width: 1050px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.info > img {
+    width: 340px;
+    height: auto;
+}
+.about__container {
+    display: inline-block;
+    margin-left: 60px;
+}
+.about__heading, .myskill__left__title {
+    display: inline-block;
+    font-size: 48px;
+    background: -webkit-linear-gradient(#20A7BC, #D5AE43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about__heading__line, .myskill__left__line {
+    width: 50%;
+    height: 4px;
+    background-color: #D5AE43;
+}
+.about__intro {
+    line-height: 28px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.about__intro__blue {
+    color: #0CABD3;
+}
+.about__intro__yellow {
+    color: #D5AE43;
+}
+.about__desc {
+    margin-top: 30px;
+    line-height: 32px;
+}
+.property__container {
+    margin-top: 32px;
+    display: flex;
+}
+.property_col1, .property_col2 {
+    display: flex;
+}
+.property_col2 {
+    margin-left: 60px;
+}
+.property__name > p {
+    font-weight: bold;
+}
+.property__data {
+    margin-left: 8px;
+}
+.myskill__left {
+    width: 210px;
+}
+.myskill__left > a > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.myskill__left__desc {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.myskill__right {
+    margin-left: 190px;
+}
+.myskill__right__row {
+    margin-top: 40px;
+}
+.myskill__right__text {
+    color: #0CABD3;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.myskill__right__bar {
+    width: 630px;
+    height: 10px;
+    background-color: #0CABD3;
+    position: relative;
+}
+.myskill__right__bar::after {
+    content: "";
+    display: block;
+    height: 10px;
+    background-color: #D5AE43;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.myskill__right__bar60::after {
+    width: 60%;
+}
+.myskill__right__bar50::after {
+    width: 50%;
+}
+.myskill__right__bar > img {
+    width: 40px;
+    position: absolute;
+    top: -60px;
+}
+.percent60 {
+    left: 65%;
+}
+.percent50 {
+    left: 55%;
+}
+.myskill__right__bar60 > span {
+    position: absolute;
+    top: -46px;
+    left: calc(66%);
+    font-size: 12px;
+    margin-left: 2px;
+    font-weight: bold;
+    color: #0CABD3;
+}
+.myskill__right__bar50 > span {
+    position: absolute;
+    top: -46px;
+    left: calc(56%);
+    font-size: 12px;
+    margin-left: 2px;
+    font-weight: bold;
+    color: #0CABD3;
+}

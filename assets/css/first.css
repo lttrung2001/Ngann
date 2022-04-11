@@ -1,0 +1,144 @@
+@font-face {
+    font-family: futura;
+    src:url('../font/futura/futura\ medium\ bt.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: futura-bold;
+    src:url('../font/futura/Futura\ Heavy\ font.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: futura;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#first {
+    background-color: #DFE6D5;
+    padding-bottom: 30px;
+}
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    background-color: #DFE6D5;
+}
+a {
+    text-decoration: none;
+}
+.header__logo {
+    width: auto;
+    height: 100px;
+}
+.header__menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 540px;
+}
+.header__menu__item {
+    display: inline-block;
+    color: #0CABD3;
+    font-size: 20px;
+    position: relative;
+}
+.header__menu__item__line {
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+.header__flexbox {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.big__image {
+    width: 100%;
+    height: auto;
+}
+.intro {
+    width: 540px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    color: #fff;
+}
+.intro__hello {
+    font-size: 40px;
+}
+.intro__name {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.intro__graphic {
+    margin-top: 12px;
+    font-size: 26px;
+    margin-left: 30px;
+    line-height: 44px;
+}
+.intro__ofcourse {
+    margin-left: 30px;
+    font-size: 16px;
+}
+.intro__ask {
+    margin-left: 120px;
+}
+.intro__ask > img {
+    margin-top: 50px;
+    width: 240px;
+    height: auto;
+}
+.intro__line {
+    width: 4px;
+    height: 160px;
+    background-color: #0CABD3;
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+.header__menu__item__line__selected {
+    background-color: #E3CE90 !important;
+}
+#second {
+    background-image: linear-gradient(to top left, #CBEDF6, #D3D4C6);
+    width: 100%;
+}
+.header__submenu {
+    border-top: 4px solid #E3CE90;
+    display: none;
+    background-color: #fff;
+    height: 74px;
+}
+.header__submenu > a {
+    display: none;
+}
+.account__btn:hover .header__submenu {
+    display: block;
+}
+.header__submenu > li {
+    line-height: 35px;
+}
+.header__submenu > li:hover {
+    background-color: rgb(221, 221, 221);
+}
+.header__submenu > li > a{
+    color: #0CABD3;
+    text-align: center;
+    display: block;
+}

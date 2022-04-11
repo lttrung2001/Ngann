@@ -1,0 +1,71 @@
+@import url("first.css");
+@import url("footer.css");
+.number__list {
+    width: 1140px;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.number__list > div {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+.number {
+    font-size: 60px;
+    font-family: futura-bold;
+}
+.text {
+    text-align: center;
+}
+.info {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.info > img {
+    width: 390px;
+    height: auto;
+}
+.info__detail {
+    font-size: 18px;
+    position: relative;
+}
+.info__detail > div {
+    margin-left: 210px;
+}
+.info__following__btn {
+    margin-left: 204px;
+    position: relative;
+}
+.info__following__img {
+    margin-top: 30px;
+    width: 300px;
+}
+.info__bell {
+    margin-left: 40px;
+    position: absolute;
+    top: -50px;
+}
+.info__icon {
+    color: #0CABD3;
+    margin-right: 8px;
+}
+.info__prop {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.info__line {
+    position: absolute;
+    height: 5px;
+    width: 210px;
+    background-color: #fff;
+    bottom: 38px;
+    left: -260px;
+}

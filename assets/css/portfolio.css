@@ -1,0 +1,118 @@
+@import url("first.css");
+@import url("footer.css");
+.ml--12 {
+    margin-left: -12px;
+}
+.mr--14 {
+    margin-right: -14px;
+}
+.portfolio__container {
+    padding-top: 30px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio__container__left > p {
+    font-size: 48px;
+    background: -webkit-linear-gradient(#20A7BC, #D5AE43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.portfolio__container__left__tag {
+    width: 150px;
+    position: relative;
+}
+.portfolio__container__left__tag > span {
+    font-size: 12px;
+}
+.span__20 {
+    position: absolute;
+    top: 60px;
+    left: 27px;
+}
+.span__50 {
+    position: absolute;
+    top: 60px;
+    left: 88px;
+}
+.portfolio__container__left__tag__img {
+    width: 100%;
+}
+.portfolio__container__left__text {
+    font-size: 14px;
+    position: absolute;
+    top: 18px;
+    left: 150px;
+    line-height: 28px;
+    width: 240px;
+}
+.portfolio__container__right {
+    background-color: #B1DFE4;
+    width: 600px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    margin-top: 16px;
+    line-height: 48px;
+}
+.portfolio__container__right__item {
+    width: 200px;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.portfolio__container__right__item__selected {
+    background-color: #F4B134;
+    box-shadow: 0 0 10px #D5AE43;
+
+    position: relative;
+    color: #fff;
+}
+.portfolio__container__right__item__selected::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #F4B134;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 40px;
+    left: 48%;
+    box-shadow: 0 0 10px #D5AE43;
+}
+.frames {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.frame__img {
+    margin-top: 24px;
+    width: 360px;
+    height: 360px;
+}
+.view__all__container {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #36aec1;
+}
+.view__all {
+    display: block;
+    background: -webkit-linear-gradient(#20A7BC, #D5AE43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
